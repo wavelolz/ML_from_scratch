@@ -1,12 +1,7 @@
 import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
-from sklearn.tree import DecisionTreeClassifier
-import matplotlib.pyplot as plt
-from sklearn.tree import plot_tree
 from sklearn.model_selection import train_test_split
 
 data = pd.read_csv("titanic.csv")
